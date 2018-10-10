@@ -9,6 +9,7 @@ public class Demo {
 		System.out.println("Updated");
 		System.out.println("Updated again");
 		System.out.println("Updated from remote");
+		System.out.println("new branch added");
 	}
 
 }
