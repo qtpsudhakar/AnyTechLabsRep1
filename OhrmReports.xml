@@ -1,0 +1,20 @@
+<suite name="smoke" >
+
+	<parameters>
+		<parameter name="aUrl"
+			value="https://qtpsudhakar2-trials641.orangehrmlive.com/auth/login" />
+	</parameters>
+
+
+	<test name="c1">
+		<parameters>
+			<parameter name="browser" value="chrome" />
+		</parameters>
+
+		<classes>
+			<class name="com.wd.tng.OhrmTests" />
+		</classes>
+
+	</test>
+
+</suite>
